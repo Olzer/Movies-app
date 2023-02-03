@@ -5,7 +5,7 @@ class HeroHeaderUIView: UIView {
     private let downloadButton: UIButton = {
         let button = UIButton()
         button.setTitle("Download", for: .normal)
-        button.layer.borderColor = UIColor.systemBackground.cgColor
+        button.layer.borderColor = UIColor.white.cgColor
         button.layer.borderWidth = 1
         button.translatesAutoresizingMaskIntoConstraints = false
         button.layer.cornerRadius = 8
@@ -15,7 +15,7 @@ class HeroHeaderUIView: UIView {
     private let playButton: UIButton = {
         let button = UIButton()
         button.setTitle("Play", for: .normal)
-        button.layer.borderColor = UIColor.systemBackground.cgColor
+        button.layer.borderColor = UIColor.white.cgColor
         button.layer.borderWidth = 1
         button.translatesAutoresizingMaskIntoConstraints = false
         button.layer.cornerRadius = 8
@@ -56,14 +56,15 @@ class HeroHeaderUIView: UIView {
     private func applyConstrains() {
         let playButtonConstrains = [
             playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 70),
-            playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50),
-            playButton.widthAnchor.constraint(equalToConstant: 120)
+            playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -30),
+            playButton.widthAnchor.constraint(equalToConstant: 110),
+            playButton.rightAnchor.constraint(equalTo: downloadButton.leftAnchor, constant: -15)
         ]
         
         let downloadButtonConstrain = [
             downloadButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -70),
-            downloadButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -50),
-            downloadButton.widthAnchor.constraint(equalToConstant: 120)
+            downloadButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -30),
+            downloadButton.widthAnchor.constraint(equalToConstant: 110),
         ]
 
         NSLayoutConstraint.activate(playButtonConstrains)
