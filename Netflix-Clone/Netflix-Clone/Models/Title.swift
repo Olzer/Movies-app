@@ -1,10 +1,10 @@
 import Foundation
 
-struct TrendingTVsResponse: Codable {
-    let results: [TV]
+struct TitleResponse: Codable {
+    let results: [Title]
 }
 
-struct TV: Codable {
+struct Title: Codable {
     let id: Int
     let media_type: String?
     let original_name: String?
