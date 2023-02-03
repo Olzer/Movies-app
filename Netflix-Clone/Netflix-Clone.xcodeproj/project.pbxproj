@@ -14,6 +14,11 @@
 		184DE217298A7F0800D675D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE215298A7F0800D675D1 /* LaunchScreen.storyboard */; };
 		18955C3F298D192D00DD5FEC /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955C3E298D192D00DD5FEC /* APICaller.swift */; };
 		18955C41298D24FD00DD5FEC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955C40298D24FD00DD5FEC /* Movie.swift */; };
+		18955C43298D3D3900DD5FEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955C42298D3D3900DD5FEC /* Extensions.swift */; };
+		18955C45298D400700DD5FEC /* TVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955C44298D400700DD5FEC /* TVs.swift */; };
+		18955C47298D46C800DD5FEC /* Popular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955C46298D46C800DD5FEC /* Popular.swift */; };
+		18955C49298D46F700DD5FEC /* Upcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955C48298D46F700DD5FEC /* Upcoming.swift */; };
+		18955C4B298D477700DD5FEC /* TopRated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18955C4A298D477700DD5FEC /* TopRated.swift */; };
 		18E75D3A298A971100557F53 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E75D39298A971100557F53 /* HomeViewController.swift */; };
 		18E75D3C298A974E00557F53 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E75D3B298A974E00557F53 /* UpcomingViewController.swift */; };
 		18E75D3E298A978D00557F53 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E75D3D298A978D00557F53 /* SearchViewController.swift */; };
@@ -32,6 +37,11 @@
 		184DE218298A7F0800D675D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18955C3E298D192D00DD5FEC /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		18955C40298D24FD00DD5FEC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		18955C42298D3D3900DD5FEC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		18955C44298D400700DD5FEC /* TVs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVs.swift; sourceTree = "<group>"; };
+		18955C46298D46C800DD5FEC /* Popular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular.swift; sourceTree = "<group>"; };
+		18955C48298D46F700DD5FEC /* Upcoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upcoming.swift; sourceTree = "<group>"; };
+		18955C4A298D477700DD5FEC /* TopRated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRated.swift; sourceTree = "<group>"; };
 		18E75D39298A971100557F53 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18E75D3B298A974E00557F53 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		18E75D3D298A978D00557F53 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				18955C40298D24FD00DD5FEC /* Movie.swift */,
+				18955C44298D400700DD5FEC /* TVs.swift */,
+				18955C46298D46C800DD5FEC /* Popular.swift */,
+				18955C48298D46F700DD5FEC /* Upcoming.swift */,
+				18955C4A298D477700DD5FEC /* TopRated.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +138,7 @@
 		18E75D44298A9E8200557F53 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				18955C42298D3D3900DD5FEC /* Extensions.swift */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -213,8 +228,13 @@
 				18E75D40298A97A900557F53 /* DownloadsViewController.swift in Sources */,
 				184DE20B298A7F0700D675D1 /* AppDelegate.swift in Sources */,
 				184DE20D298A7F0700D675D1 /* SceneDelegate.swift in Sources */,
+				18955C43298D3D3900DD5FEC /* Extensions.swift in Sources */,
+				18955C45298D400700DD5FEC /* TVs.swift in Sources */,
 				18E75D3C298A974E00557F53 /* UpcomingViewController.swift in Sources */,
 				18E75D3A298A971100557F53 /* HomeViewController.swift in Sources */,
+				18955C49298D46F700DD5FEC /* Upcoming.swift in Sources */,
+				18955C4B298D477700DD5FEC /* TopRated.swift in Sources */,
+				18955C47298D46C800DD5FEC /* Popular.swift in Sources */,
 				18955C41298D24FD00DD5FEC /* Movie.swift in Sources */,
 				18E75D49298AA97200557F53 /* HeroHeaderUIView.swift in Sources */,
 			);
